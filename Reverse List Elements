@@ -1,0 +1,15 @@
+#cerner_2^5_2019
+sampleList = []
+while True:
+    element =input("Enter element into the list/press enter to exit ")
+    if (element==''):
+        break
+    sampleList.append(element)
+# Original List
+print('Original List:', sampleList)
+
+# List Reverse
+sampleList.reverse()
+
+# Updated list
+print('Updated List:', sampleList)
